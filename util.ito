@@ -1,0 +1,9 @@
+
+{{- global color -}}
+  {{-switch $0 -}}
+    {{- case "Fighter"}}red
+    {{- case "Food"}}green
+    {{- case "Fishing"}}blue
+    {{- case <v>}}gray
+  {{- /switch -}}
+{{- /global -}}

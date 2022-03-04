@@ -1,0 +1,41 @@
+{{export
+    card_files = ["cards.crd"];
+    card_width = 50;
+    card_height= 70;
+    padding = 1;
+    margin=4;
+    imports="util.ito"
+    front_path="out/front_"
+    back_path="out/back_"
+    img_path="../imgs"
+    check_img_path="imgs"
+}}
+
+{{@export extra -}}
+    {{# Anything to appear on every page once #}}
+{{- /export}}
+
+{{global front}}
+  		<rect {{xywh 0 0 50 70 }} fill="{{color .type}}" stroke="black" stroke-width="3"/>
+
+      {{if is_file (join $1.check_img_path (cat .Name ".png"))}}
+        {{debug "File Found"}}
+        {{#<rect {{xywh 17.5 20 15 15}} {{fl_stk "White" "None" 0}} />#}}
+        <image {{xywh 17.5 20 15 15 }} xlink:href="{{join $1.img_path (cat .Name ".png")}}"/>
+      {{/if}}
+
+      <text {{xy 25 10 }} {{fl_stk "black" "yellow" 0.5}} style="paint-order:stroke" text-anchor="middle" {{font 6 "Rockwell"}}>{{.Name}}</text>
+  		{{if .damage}}
+  			<text {{xy 5 65 }} {{font 4}} fill="black" text-anchor="left">Damage = {{.damage}}</text>
+  		{{/if}}
+  		{{if .speed}}
+  			<text {{xy 5 65}} {{font 4}} fill="black" text-anchor="left">Speed = {{.speed}}</text>
+  		{{/if}}
+      {{if .carry}}
+        <text {{xy 5 65}}  {{font 4}}fill="black" text-anchor="left">Carry = {{.carry}}</text>
+      {{/if}}
+{{/global}}
+
+{{global back}}
+    <rect {{xywh 0 0 45 60}} {{fl_stk "blue" "black" 2}} />
+{{/global}}
