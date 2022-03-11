@@ -1,12 +1,12 @@
 param type
 #attack_interval = number of turns between uses
-#resources = [gold,wood,metal,stone,food,defence,damage,momentum]
+#resources = [gold,wood,metal,stone,food,defence,damage,momentum,coal]
 # Every card has, .cost,.requires .provides , .action
-# actions = [Move,Attack, Protect]
+# action = [Move , Attack , Protect , Draw]
 
 2*"Twin Swords",Fighter
 .provides : [[damage,10] , [defence ,2]]
-.cost : [[metal , 4]]
+.cost : [[metal , 2] , [wood , 2]]
 .requires : []
 .action : Attack
 
@@ -20,23 +20,29 @@ param type
 5*"Horse",runner
 .provides : [[momentum, 1]]
 .cost : [[gold,1]]
+.requires: [[food,1]]
 .action: Move
 
-
 3*"Wagon",carrier
-.carry : 5
+.provides : [[wood 1,] or [food,2]]
+.action : [Draw]
+.cost : [[gold, 2]]
+.requires : []
 
 3*"Sword",Fighter
-.damage : 5
-.defence : 1
-.hands : 1
-.wrists : 0
-.makesore : 10
+.provides : [[damage , 5],[defence , 1]]
+.cost [[metal , 1][wood , 1]]
+.requires : []
+.action : [Attack]
 
 2*"Train",runner
-.speed : 3
+.provides : [[momentum , 3]]
+.cost : [[metal , 3] , [wood]]
+.requires : [[coal , 1]]
+.action : [[move]]
 
-5*"Bow",Hunting
+5*"Bow",Fighter
+.provides : [[]]
 .damage : 5
 .Accuracy : 75
 .Attack_speed :"1_turn"
@@ -44,7 +50,7 @@ param type
 .hands : 2
 .wrists : 0
 
-3*"CrossBow",Hunting
+3*"CrossBow",Fighter
 .damage : 10
 .Accuracy : 85
 .Attack_speed : "3_turns"
@@ -126,7 +132,7 @@ param type
 .wrists : 1
 .makesore : 3
 
-3*"BuckShot",Hunting
+3*"BuckShot",Fighter
 .damage : 24
 .Attack_speed : 5
 .Accuracy : 95
@@ -135,7 +141,7 @@ param type
 .hands : 2
 .wrists : 2
 
-4*"Hammer",Hunting
+4*"Hammer",Fighter
 .damage : 30
 .Attack_speed : "3_turns"
 .Accuracy : 100
