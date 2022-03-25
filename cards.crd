@@ -1,148 +1,107 @@
 param type
-#attack_interval = number of turns between uses
-#resources = [gold,wood,metal,stone,food,defence,damage,momentum,coal]
+#resources = [wood,metal,Food,Defence,Damage,momentum,coal]
 # Every card has, .cost,.requires .provides , .action
-# action = [Move , Attack , Protect , Draw]
+# Some cards have .scrapfor
+# action = [Move,Attack,Draw, ]
+# gain 1 Metal via any use of .scrapfor
 
 2*"Twin Swords",Fighter
-.provides : [[damage,10] , [defence ,2]]
-.cost : [[metal , 2] , [wood , 2]]
-.requires : []
-.action : Attack
-
-5*"Shield",Fighter
-.provides : [[defence , 10], [damage, 5]]
-.cost : [[metal,3]]
-.requires : []
-.action : Protect
-
-
-5*"Horse",runner
-.provides : [[momentum, 1]]
-.cost : [[gold,1]]
-.requires: [[food,1]]
-.action: Move
-
-3*"Wagon",carrier
-.provides : [[wood 1,] or [food,2]]
-.action : [Draw]
-.cost : [[gold, 2]]
-.requires : []
-
-3*"Sword",Fighter
-.provides : [[damage , 5],[defence , 1]]
-.cost [[metal , 1][wood , 1]]
+.provides : [[Damage,12] , [Defence ,5]]
+.cost : [[metal , 2] , [wood , 2] , [Metal , 1]]
 .requires : []
 .action : [Attack]
 
+5*"Shield",Fighter
+.provides : [[Defence , 10], [Damage, 5]]
+.cost : [[metal , 3] , [Metal , 1]]
+.requires : []
+.action : [Attack]
+.scrapfor : []
+
+5*"Horse",runner
+.provides : [[momentum, 1]]
+.cost : [[Food,10]]
+.requires: [[Food , 3]]
+.action : [Move]
+.scrapfor : [[momentum, 1]]
+
+3*"Wagon",carrier
+.provides : [[wood , 2] or [Food,2]]
+.action : [Draw,3]
+.cost : [[, 2]]
+.requires : []
+.scrapfor : [[wood , 5] or [Food,5]]
+
+3*"Sword",Fighter
+.provides : [[Damage , 5],[Defence , 1]]
+.cost [p[metal , 1],[wood , 1]]
+.requires : []
+.action : [Attack]
+.scrapfor : []
+
 2*"Train",runner
 .provides : [[momentum , 3]]
-.cost : [[metal , 3] , [wood]]
+.cost : [[metal , 3] , [wood , 1]]
 .requires : [[coal , 1]]
-.action : [[move]]
+.action : [[Move]]
+.scrapfor : [[coal , 5]]
 
 5*"Bow",Fighter
-.provides : [[]]
-.damage : 5
-.Accuracy : 75
-.Attack_speed :"1_turn"
-.Keepshot :"false"
-.hands : 2
-.wrists : 0
+.provides : [[Food , 3] , [Damage , 3] , [Defence , 0]]
+.cost : [[wood , 1][Metal , 1]]
+.requires : [[Metal , 1]]
+.action : [Attack]
+.scrapfor : []
 
 3*"CrossBow",Fighter
-.damage : 10
-.Accuracy : 85
-.Attack_speed : "3_turns"
-.Keepshot : "true"
-.hands : 2
-.wrists : 1
+.provides : [[Food , 3] , [Damage , 5] , [Defence , 0]]
+.cost : [[wood , 5] , [Metal , 3] , [metal , 1]]
+.requires : [[Metal , 2]]
+.action : [Attack]
+.scrapfor : [wood, 2]
 
-2*"Carrage",carrier
-.carry : 10
+1*"Harpoon",Fighter
+.provides : []
+.cost : [[wood , 1][metal , 1]]
+.requires : []
+.action : [[Draw] , [Attack]]
+.scrapfor : [[Food , (1 to 2)] or [Damage , (1 to 5)]]
 
-
-10*"Harpoon",Fishing
-.Fish_Per_Shot :"1-2"
-.durabilaty : 5
-
-
-5*"Trident",Fishing
-.Fish_Per_Shot :"2-6"
-.durabilaty :10
-
-1*"Fishing_Rod",Fishing
-.Fish_Per_Shot :1
-.durabilaty : "infinate"
-
-10*"Coin",Money
-.provides :[[gold, 1]]
-
-5*"Cash",Money
-.provides :"£5"
-
-4*"Gold Bar",Money
-.provides : "£10"
-
-3*"Diamond",Money
-.provides : "£50"
-
-2*"Emerald",Money
-.provides : "£100"
-
-"Tresure",Money
-.provides : "£150"
-
-9*"Apple",Food
-.restore : 5
-.defamish : 10
-
-
-9*"Bread",Food
-.restore : 15
-.defamish : 25
-
-9*"Sandwidge",Food
-.restore : 20
-.defamish : 45
-
-9*"Meat",Food
-.restore : 40
-.defamish : 35
-
-9*"Pack_lunch",Food
-.restore : 50
-.defamish : 50
-
-9*"Burito",Food
-.restore : 150
-.defamish : 100
+5*"Trident",Fighter
+.provides : []
+.cost : [[metal , 5]]
+.requires : []
+.action : [[Draw] , [Attack]]
+.scrapfor : [[Food , (1 to 6)] or [Damage , (3 to 15)]]
 
 4*"Twin Shields",Fighter
-.damage : 10
-.defence : 20
-.hands : 0
-.wrists : 2
-.makesore : 2
+.provides : [[Defence , 15] , [Damage]]
+.cost : [[metal , 3], [Metal , 2]]
+.requires : []
+.action : [Attack]
+.scrapfor : [metal , 2]
 
 2*"Galaxy Ray",Fighter
-.damage : 50
-.defence : 2
-.hands : 2
-.wrists : 1
-.makesore : 3
+.provides : [[Damage , 20]]
+.cost : [[metal , 3] , [wood , 7] , [Metal , 1]]
+.requires : [[Metal , 3]
+.action : [Attack]
+.scrapfor : [[metal , 2] , [wood , 5]]
 
 3*"BuckShot",Fighter
-.damage : 24
-.Attack_speed : 5
-.Accuracy : 95
-.Keepshot : true
-.Range : 5
-.hands : 2
-.wrists : 2
+.provides : [[Damage , 20]]
+.cost : [[metal , 6]]
+.requires : [Metal]
+.action : []
+.scrapfor : []
 
 4*"Hammer",Fighter
-.damage : 30
+.provides : []
+.cost : []
+.requires : []
+.action : []
+.scrapfor : []
+.Damage : 30
 .Attack_speed : "3_turns"
 .Accuracy : 100
 .Keepshot : false
@@ -151,8 +110,10 @@ param type
 .wrists : 0
 
 2*"Whip",Fighter
-.damage : 5
-.defence : 0
-.hands : 2
-.wrists : 2
-.makesore : 30
+.provides : []
+.cost : []
+.requires : []
+.action : []
+.scrapfor : []
+.Damage : 5
+.Defence : 0
