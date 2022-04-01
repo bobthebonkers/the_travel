@@ -1,119 +1,93 @@
 param type
-#resources = [wood,metal,Food,Defence,Damage,momentum,coal]
-# Every card has, .cost,.requires .provides , .action
-# Some cards have .scrapfor
+#resources = [Wood,Iron,Food,Defence,Attack,Movement]
+# Every card has, .cost <items>,.requires<items> .provides<items>
+# Some cards have .scrapfor<items>, .action<text>
 # action = [Move,Attack,Draw, ]
-# gain 1 Metal via any use of .scrapfor
+# gain 1 Iron via any use of .scrapfor
 
-2*"Twin Swords",Fighter
-.provides : [[Damage,12] , [Defence ,5]]
-.cost : [[metal , 2] , [wood , 2] , [Metal , 1]]
+2*"Twin Swords",Attack
+.provides : [[Attack,12] , [Defence ,5]]
+.cost : [[Iron , 3] , [Wood , 2] ]
 .requires : []
-.action : [Attack]
 
-5*"Shield",Fighter
-.provides : [[Defence , 10], [Damage, 5]]
-.cost : [[metal , 3] , [Metal , 1]]
+5*"Shield",Defence
+.provides : [[Defence , 10], [Attack, 5]]
+.cost : [[Iron , 4] ]
 .requires : []
-.action : [Attack]
 .scrapfor : []
 
-5*"Horse",runner
-.provides : [[momentum, 1]]
-.cost : [[Food,10]]
-.requires: [[Food , 3]]
-.action : [Move]
-.scrapfor : [[momentum, 1]]
+5*"Horse",Movement
+.provides : [[Movement, 1]]
+.cost : [[Food,3]]
+.requires: [[Food , 1]]
+.scrapfor : [[Food, 3]]
 
-3*"Wagon",carrier
-.provides : [[wood , 2] or [Food,2]]
-.action : [Draw,3]
-.cost : [[, 2]]
+3*"Wagon",Carrier
+.provides : [[Wood , 2] or [Food,2]]
+.action : "Draw 3 Cards"
+.cost : [[Wood , 2]]
 .requires : []
-.scrapfor : [[wood , 5] or [Food,5]]
+.scrapfor : [[Wood 3] [Food 3]]
 
-3*"Sword",Fighter
-.provides : [[Damage , 5],[Defence , 1]]
-.cost [p[metal , 1],[wood , 1]]
+3*"Sword",Attack
+.provides : [[Attack , 5],[Defence , 1]]
+.cost : [[Iron , 1],[Wood , 1]]
 .requires : []
-.action : [Attack]
-.scrapfor : []
 
-2*"Train",runner
-.provides : [[momentum , 3]]
-.cost : [[metal , 3] , [wood , 1]]
-.requires : [[coal , 1]]
-.action : [[Move]]
-.scrapfor : [[coal , 5]]
+2*"Train",Movement
+.provides : [[Movement , 3]]
+.cost : [[Iron , 3] , [Wood , 1]]
+.requires : [[Wood , 1]]
+.scrapfor : [[Wood , 5]]
 
-5*"Bow",Fighter
-.provides : [[Food , 3] , [Damage , 3] , [Defence , 0]]
-.cost : [[wood , 1][Metal , 1]]
-.requires : [[Metal , 1]]
-.action : [Attack]
-.scrapfor : []
+5*"Bow",Attack
+.provides : [[Food , 3] , [Attack , 3] , [Defence , 0]]
+.cost : [[Wood , 1][Iron , 1]]
+.requires : [[Iron , 1]]
 
-3*"CrossBow",Fighter
-.provides : [[Food , 3] , [Damage , 5] , [Defence , 0]]
-.cost : [[wood , 5] , [Metal , 3] , [metal , 1]]
-.requires : [[Metal , 2]]
-.action : [Attack]
-.scrapfor : [wood, 2]
+3*"CrossBow",Attack
+.provides : [[Food , 3] , [Attack , 5] , [Defence , 0]]
+.cost : [[Wood , 5] , [Iron , 3] , [Iron , 1]]
+.requires : [[Iron , 2]]
+.scrapfor : [Wood, 2]
 
-1*"Harpoon",Fighter
-.provides : []
-.cost : [[wood , 1][metal , 1]]
+1*"Harpoon",Attack
+.provides : [Food "2d6:L"]
+.cost : [[Wood , 1][Iron , 1]]
 .requires : []
 .action : [[Draw] , [Attack]]
-.scrapfor : [[Food , (1 to 2)] or [Damage , (1 to 5)]]
+.scrapfor : [[Attack , "2d6:H"]]
 
-5*"Trident",Fighter
-.provides : []
-.cost : [[metal , 5]]
+5*"Trident",Food
+.provides : [[Food , "2d6:H"]]
+.cost : [[Iron , 5]]
 .requires : []
 .action : [[Draw] , [Attack]]
-.scrapfor : [[Food , (1 to 6)] or [Damage , (3 to 15)]]
+.scrapfor : [[Attack , "2d6+2"]]
 
-4*"Twin Shields",Fighter
-.provides : [[Defence , 15] , [Damage]]
-.cost : [[metal , 3], [Metal , 2]]
+4*"Twin Shields",Attack
+.provides : [[Defence , 15] , [Attack]]
+.cost : [[Iron , 5]]
 .requires : []
-.action : [Attack]
-.scrapfor : [metal , 2]
+.scrapfor : [Iron , 2]
 
-2*"Galaxy Ray",Fighter
-.provides : [[Damage , 20]]
-.cost : [[metal , 3] , [wood , 7] , [Metal , 1]]
-.requires : [[Metal , 3]
-.action : [Attack]
-.scrapfor : [[metal , 2] , [wood , 5]]
+2*"Blue Gun",Attack
+.provides : [[Attack , 20]]
+.cost : [[Iron , 4] , [Wood , 7]]
+.requires : [[Iron , 3]]
+.scrapfor : [[Iron , 2] , [Wood , 5]]
 
-3*"BuckShot",Fighter
-.provides : [[Damage , 20]]
-.cost : [[metal , 6]]
-.requires : [Metal]
-.action : []
-.scrapfor : []
+3*"BuckShot",Attack
+.provides : [[Attack , 20]]
+.cost : [[Iron , 6]]
+.requires : [Iron]
 
-4*"Hammer",Fighter
-.provides : []
-.cost : []
+4*"Hammer",Construction
+.provides : [[Wood , 10]]
+.cost : [[Wood ,2]]
 .requires : []
-.action : []
-.scrapfor : []
-.Damage : 30
-.Attack_speed : "3_turns"
-.Accuracy : 100
-.Keepshot : false
-.Range : 1
-.hands : 2
-.wrists : 0
 
-2*"Whip",Fighter
-.provides : []
-.cost : []
+2*"Whip",Attack
+.provides : [[Attack, 5]]
+.cost : [Wood, 1]
 .requires : []
-.action : []
-.scrapfor : []
-.Damage : 5
-.Defence : 0

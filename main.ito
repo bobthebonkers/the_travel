@@ -16,7 +16,8 @@
 {{- /export}}
 
 {{global front}}
-  		<rect {{xywh 0 0 50 70 }} fill="{{color .type}}" stroke="black" stroke-width="3"/>
+  		<rect {{xywh 0 0 50 70 }} fill="{{color .type}}" stroke="black" stroke-width="1"/>
+      <rect {{xywh 5 5 40 60}} fill="White" stroke="None" opacity="0.5"/>
 
       {{if is_file (join $1.check_img_path (cat .Name ".png"))}}
         {{debug "File Found"}}
@@ -24,16 +25,15 @@
         <image {{xywh 17.5 20 15 15 }} xlink:href="{{join $1.img_path (cat .Name ".png")}}"/>
       {{/if}}
 
-      <text {{xy 25 10 }} {{fl_stk "black" "yellow" 0.5}} style="paint-order:stroke" text-anchor="middle" {{font 6 "Rockwell"}}>{{.Name}}</text>
-  		{{if .damage}}
-  			<text {{xy 5 65 }} {{font 4}} fill="black" text-anchor="left">Damage = {{.damage}}</text>
-  		{{/if}}
-  		{{if .speed}}
-  			<text {{xy 5 65}} {{font 4}} fill="black" text-anchor="left">Speed = {{.speed}}</text>
-  		{{/if}}
-      {{if .carry}}
-        <text {{xy 5 65}}  {{font 4}}fill="black" text-anchor="left">Carry = {{.carry}}</text>
-      {{/if}}
+      <text {{xy 20 10 }} {{fl_stk "black" "yellow" 0.5}} style="paint-order:stroke" text-anchor="middle" {{font 6 "Rockwell"}}>{{.Name}}</text>
+      {{for k c in .cost}}
+      {{switch $c}}
+        {{case [<res> <count>]}}
+        {{resource $res $count 45 (add 8 (mul $k 10))}}
+
+      {{/switch}}
+      {{/for}}
+
 {{/global}}
 
 {{global back}}

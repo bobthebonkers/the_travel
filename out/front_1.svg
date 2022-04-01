@@ -8,170 +8,293 @@
 
 <g transform="translate(29 7)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="gray" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="yellow" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Wagon</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Wagon</text>
       
-        <text x="5" y="65"  font-size="4" fill="black" text-anchor="left">Carry = 5</text>
       
+        <rect x="38" y="4" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">2</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(80 7)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="gray" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="yellow" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Wagon</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Wagon</text>
       
-        <text x="5" y="65"  font-size="4" fill="black" text-anchor="left">Carry = 5</text>
       
+        <rect x="38" y="4" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">2</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(131 7)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="gray" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="yellow" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Wagon</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Wagon</text>
       
-        <text x="5" y="65"  font-size="4" fill="black" text-anchor="left">Carry = 5</text>
       
+        <rect x="38" y="4" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">2</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(29 78)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Sword</text>
-  		
-  			<text x="5" y="65" font-size="4"  fill="black" text-anchor="left">Damage = 5</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Sword</text>
       
+      
+        <rect x="38" y="4" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Ir</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+      
+        <rect x="38" y="14" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="18" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="19" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(80 78)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Sword</text>
-  		
-  			<text x="5" y="65" font-size="4"  fill="black" text-anchor="left">Damage = 5</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Sword</text>
       
+      
+        <rect x="38" y="4" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Ir</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+      
+        <rect x="38" y="14" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="18" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="19" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(131 78)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Sword</text>
-  		
-  			<text x="5" y="65" font-size="4"  fill="black" text-anchor="left">Damage = 5</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Sword</text>
       
+      
+        <rect x="38" y="4" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Ir</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+      
+        <rect x="38" y="14" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="18" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="19" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(29 149)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="gray" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="lightblue" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Train</text>
-  		
-  		
-  			<text x="5" y="65" font-size="4"  fill="black" text-anchor="left">Speed = 3</text>
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Train</text>
       
+      
+        <rect x="38" y="4" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Ir</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">3</text>
+
+      
+      
+      
+        <rect x="38" y="14" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="18" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="19" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(80 149)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="gray" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="lightblue" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Train</text>
-  		
-  		
-  			<text x="5" y="65" font-size="4"  fill="black" text-anchor="left">Speed = 3</text>
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Train</text>
       
+      
+        <rect x="38" y="4" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Ir</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">3</text>
+
+      
+      
+      
+        <rect x="38" y="14" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="18" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="19" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(131 149)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="gray" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Bow</text>
-  		
-  			<text x="5" y="65" font-size="4"  fill="black" text-anchor="left">Damage = 5</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Bow</text>
       
+      
+        <rect x="38" y="4" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+      
+        <rect x="38" y="14" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="45" y="18" font-size="4" font-family="Rockwell"  text-anchor="end">Ir</text>
+  <text x="45" y="19" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(29 220)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="gray" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Bow</text>
-  		
-  			<text x="5" y="65" font-size="4"  fill="black" text-anchor="left">Damage = 5</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Bow</text>
       
+      
+        <rect x="38" y="4" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+      
+        <rect x="38" y="14" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="45" y="18" font-size="4" font-family="Rockwell"  text-anchor="end">Ir</text>
+  <text x="45" y="19" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(80 220)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="gray" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Bow</text>
-  		
-  			<text x="5" y="65" font-size="4"  fill="black" text-anchor="left">Damage = 5</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Bow</text>
       
+      
+        <rect x="38" y="4" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+      
+        <rect x="38" y="14" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="45" y="18" font-size="4" font-family="Rockwell"  text-anchor="end">Ir</text>
+  <text x="45" y="19" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+
 
 </g>
 <g transform="translate(131 220)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="gray" stroke="black" stroke-width="3"/>
+  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="25" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Bow</text>
-  		
-  			<text x="5" y="65" font-size="4"  fill="black" text-anchor="left">Damage = 5</text>
-  		
-  		
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Bow</text>
       
+      
+        <rect x="38" y="4" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="45" y="8" font-size="4" font-family="Rockwell"  text-anchor="end">Wd</text>
+  <text x="45" y="9" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+      
+        <rect x="38" y="14" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="45" y="18" font-size="4" font-family="Rockwell"  text-anchor="end">Ir</text>
+  <text x="45" y="19" font-size="3" font-family="Rockwell"  text-anchor="start">1</text>
+
+      
+      
+
 
 </g>
 </svg>
