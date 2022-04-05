@@ -2,7 +2,7 @@ param type
 #resources = [Wood,Iron,Food,Defence,Attack,Movement]
 # Every card has, .cost <items>,.requires<items> .provides<items>
 # Some cards have .scrapfor<items>, .action<text>
-# action = [Move,Attack,Draw, ]
+# action = [Draw ]
 # gain 1 Iron via any use of .scrapfor
 
 2*"Twin Swords",Attack
@@ -23,7 +23,7 @@ param type
 .scrapfor : [[Food, 3]]
 
 3*"Wagon",Carrier
-.provides : [[Wood , 2] or [Food,2]]
+.provides : [[Wood , 2] [Food,2]]
 .action : "Draw 3 Cards"
 .cost : [[Wood , 2]]
 .requires : []
@@ -41,9 +41,9 @@ param type
 .scrapfor : [[Wood , 5]]
 
 5*"Bow",Attack
-.provides : [[Food , 3] , [Attack , 3] , [Defence , 0]]
+.provides : [[Food , 3] , [Attack , 3]]
 .cost : [[Wood , 1][Iron , 1]]
-.requires : [[Iron , 1]]
+.requires : [[Iron , 1] ]
 
 3*"CrossBow",Attack
 .provides : [[Food , 3] , [Attack , 5] , [Defence , 0]]

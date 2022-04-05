@@ -28,6 +28,6 @@
 {{# params : name num x y #}}
 {{-global resource-}}
   <rect {{xywh (sub $2 7) (sub $3 4) 10 9}} {{fl_stk (color $0) "black" 0.1}} />
-  <text {{xy $2 $3}} {{font 4 "Rockwell"}} text-anchor="end">{{r_name $0}}</text>
-  <text {{xy $2 (add $3 1)}} {{font 3 "Rockwell"}} text-anchor="start">{{$1}}</text>
+  <text {{xy (sub $2 2) $3}} {{font 4 "Rockwell"}} text-anchor="middle">{{r_name $0}}</text>
+  <text {{xy (sub $2 2)(add $3 3.3)}} {{font 3 "Rockwell"}} text-anchor="middle">{{$1}}</text>
 {{- /global -}}
