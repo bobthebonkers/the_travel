@@ -13,19 +13,25 @@
 
       
 
-      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Bow</text>
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >CrossBow</text>
       
       
       
         <rect x="38" y="4" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
   <text x="43" y="8" font-size="4" font-family="Rockwell"  text-anchor="middle">Wd</text>
-  <text x="43" y="11.3" font-size="3" font-family="Rockwell"  text-anchor="middle">1</text>
+  <text x="43" y="11.3" font-size="3" font-family="Rockwell"  text-anchor="middle">5</text>
       
       
       
         <rect x="38" y="14" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
   <text x="43" y="18" font-size="4" font-family="Rockwell"  text-anchor="middle">Ir</text>
-  <text x="43" y="21.3" font-size="3" font-family="Rockwell"  text-anchor="middle">1</text>
+  <text x="43" y="21.3" font-size="3" font-family="Rockwell"  text-anchor="middle">3</text>
+      
+      
+      
+        <rect x="38" y="24" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="43" y="28" font-size="4" font-family="Rockwell"  text-anchor="middle">Ir</text>
+  <text x="43" y="31.3" font-size="3" font-family="Rockwell"  text-anchor="middle">1</text>
       
       
 
@@ -40,7 +46,13 @@
           
             <rect x="27" y="41" width="10" height="9" fill="red" stroke="black" stroke-width="0.1" />
   <text x="32" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">At</text>
-  <text x="32" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">3</text>
+  <text x="32" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">5</text>
+          
+        
+          
+            <rect x="16" y="41" width="10" height="9" fill="lightgray" stroke="black" stroke-width="0.1" />
+  <text x="21" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Df</text>
+  <text x="21" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">0</text>
           
         
       
@@ -52,7 +64,7 @@
           
             <rect x="3" y="41" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
   <text x="8" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Ir</text>
-  <text x="8" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">1</text>
+  <text x="8" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
           
           
         
@@ -61,6 +73,15 @@
       
 
 
+      
+      <text x="16" y="62" fill="black" stroke="white" stroke-width="0.4" style="paint-order:stroke" text-anchor="middle" font-size="4" font-family="Rockwell" >Scrap For:</text>
+        
+          
+            <rect x="38" y="56" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="43" y="60" font-size="4" font-family="Rockwell"  text-anchor="middle">Wd</text>
+  <text x="43" y="63.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
+          
+        
       
 
 
@@ -137,7 +158,9 @@
       <text x="16" y="62" fill="black" stroke="white" stroke-width="0.4" style="paint-order:stroke" text-anchor="middle" font-size="4" font-family="Rockwell" >Scrap For:</text>
         
           
-        
+            <rect x="38" y="56" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="43" y="60" font-size="4" font-family="Rockwell"  text-anchor="middle">Wd</text>
+  <text x="43" y="63.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
           
         
       
@@ -216,7 +239,9 @@
       <text x="16" y="62" fill="black" stroke="white" stroke-width="0.4" style="paint-order:stroke" text-anchor="middle" font-size="4" font-family="Rockwell" >Scrap For:</text>
         
           
-        
+            <rect x="38" y="56" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
+  <text x="43" y="60" font-size="4" font-family="Rockwell"  text-anchor="middle">Wd</text>
+  <text x="43" y="63.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
           
         
       
@@ -225,85 +250,6 @@
 
 </g>
 <g transform="translate(29 78)">
-
-  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
-      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
-
-      
-
-      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >CrossBow</text>
-      
-      
-      
-        <rect x="38" y="4" width="10" height="9" fill="maroon" stroke="black" stroke-width="0.1" />
-  <text x="43" y="8" font-size="4" font-family="Rockwell"  text-anchor="middle">Wd</text>
-  <text x="43" y="11.3" font-size="3" font-family="Rockwell"  text-anchor="middle">5</text>
-      
-      
-      
-        <rect x="38" y="14" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
-  <text x="43" y="18" font-size="4" font-family="Rockwell"  text-anchor="middle">Ir</text>
-  <text x="43" y="21.3" font-size="3" font-family="Rockwell"  text-anchor="middle">3</text>
-      
-      
-      
-        <rect x="38" y="24" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
-  <text x="43" y="28" font-size="4" font-family="Rockwell"  text-anchor="middle">Ir</text>
-  <text x="43" y="31.3" font-size="3" font-family="Rockwell"  text-anchor="middle">1</text>
-      
-      
-
-      
-        
-          
-            <rect x="38" y="41" width="10" height="9" fill="green" stroke="black" stroke-width="0.1" />
-  <text x="43" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Fd</text>
-  <text x="43" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">3</text>
-          
-        
-          
-            <rect x="27" y="41" width="10" height="9" fill="red" stroke="black" stroke-width="0.1" />
-  <text x="32" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">At</text>
-  <text x="32" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">5</text>
-          
-        
-          
-            <rect x="16" y="41" width="10" height="9" fill="lightgray" stroke="black" stroke-width="0.1" />
-  <text x="21" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Df</text>
-  <text x="21" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">0</text>
-          
-        
-      
-
-
-      
-        
-        
-          
-            <rect x="3" y="41" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
-  <text x="8" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Ir</text>
-  <text x="8" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
-          
-          
-        
-        <text x="16" y="46" fill="black" stroke="white" stroke-width="0.4" style="paint-order:stroke" text-anchor="middle" font-size="4" font-family="Rockwell" >=&gt;</text>
-
-      
-
-
-      
-      <text x="16" y="62" fill="black" stroke="white" stroke-width="0.4" style="paint-order:stroke" text-anchor="middle" font-size="4" font-family="Rockwell" >Scrap For:</text>
-        
-          
-        
-          
-        
-      
-
-
-
-</g>
-<g transform="translate(80 78)">
 
   		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
       <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
@@ -329,7 +275,15 @@
       
         
           
+            <rect x="38" y="41" width="10" height="9" fill="green" stroke="black" stroke-width="0.1" />
+  <text x="43" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Fd</text>
+  <text x="43" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6:L</text>
+          
         
+          
+            <rect x="27" y="41" width="10" height="9" fill="blue" stroke="black" stroke-width="0.1" />
+  <text x="32" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Cr</text>
+  <text x="32" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">1</text>
           
         
       
@@ -345,6 +299,57 @@
             <rect x="38" y="56" width="10" height="9" fill="red" stroke="black" stroke-width="0.1" />
   <text x="43" y="60" font-size="4" font-family="Rockwell"  text-anchor="middle">At</text>
   <text x="43" y="63.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6:H</text>
+          
+        
+      
+
+
+
+</g>
+<g transform="translate(80 78)">
+
+  		<rect x="0" y="0" width="50" height="70" fill="green" stroke="black" stroke-width="1"/>
+      <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
+
+      
+
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Trident</text>
+      
+      
+      
+        <rect x="38" y="4" width="10" height="9" fill="gray" stroke="black" stroke-width="0.1" />
+  <text x="43" y="8" font-size="4" font-family="Rockwell"  text-anchor="middle">Ir</text>
+  <text x="43" y="11.3" font-size="3" font-family="Rockwell"  text-anchor="middle">5</text>
+      
+      
+
+      
+        
+          
+            <rect x="38" y="41" width="10" height="9" fill="green" stroke="black" stroke-width="0.1" />
+  <text x="43" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Fd</text>
+  <text x="43" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6:H</text>
+          
+        
+          
+            <rect x="27" y="41" width="10" height="9" fill="blue" stroke="black" stroke-width="0.1" />
+  <text x="32" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Cr</text>
+  <text x="32" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
+          
+        
+      
+
+
+      
+
+
+      
+      <text x="16" y="62" fill="black" stroke="white" stroke-width="0.4" style="paint-order:stroke" text-anchor="middle" font-size="4" font-family="Rockwell" >Scrap For:</text>
+        
+          
+            <rect x="38" y="56" width="10" height="9" fill="red" stroke="black" stroke-width="0.1" />
+  <text x="43" y="60" font-size="4" font-family="Rockwell"  text-anchor="middle">At</text>
+  <text x="43" y="63.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6+2</text>
           
         
       
@@ -375,6 +380,12 @@
             <rect x="38" y="41" width="10" height="9" fill="green" stroke="black" stroke-width="0.1" />
   <text x="43" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Fd</text>
   <text x="43" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6:H</text>
+          
+        
+          
+            <rect x="27" y="41" width="10" height="9" fill="blue" stroke="black" stroke-width="0.1" />
+  <text x="32" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Cr</text>
+  <text x="32" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
           
         
       
@@ -422,6 +433,12 @@
   <text x="43" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6:H</text>
           
         
+          
+            <rect x="27" y="41" width="10" height="9" fill="blue" stroke="black" stroke-width="0.1" />
+  <text x="32" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Cr</text>
+  <text x="32" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
+          
+        
       
 
 
@@ -465,6 +482,12 @@
             <rect x="38" y="41" width="10" height="9" fill="green" stroke="black" stroke-width="0.1" />
   <text x="43" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Fd</text>
   <text x="43" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6:H</text>
+          
+        
+          
+            <rect x="27" y="41" width="10" height="9" fill="blue" stroke="black" stroke-width="0.1" />
+  <text x="32" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Cr</text>
+  <text x="32" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
           
         
       
@@ -512,6 +535,12 @@
   <text x="43" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6:H</text>
           
         
+          
+            <rect x="27" y="41" width="10" height="9" fill="blue" stroke="black" stroke-width="0.1" />
+  <text x="32" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Cr</text>
+  <text x="32" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2</text>
+          
+        
       
 
 
@@ -534,12 +563,12 @@
 </g>
 <g transform="translate(29 220)">
 
-  		<rect x="0" y="0" width="50" height="70" fill="green" stroke="black" stroke-width="1"/>
+  		<rect x="0" y="0" width="50" height="70" fill="red" stroke="black" stroke-width="1"/>
       <rect x="5" y="5" width="40" height="60" fill="White" stroke="None" opacity="0.5"/>
 
       
 
-      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Trident</text>
+      <text x="20" y="10" fill="black" stroke="yellow" stroke-width="0.5" style="paint-order:stroke" text-anchor="middle" font-size="6" font-family="Rockwell" >Twin Shields</text>
       
       
       
@@ -552,9 +581,11 @@
       
         
           
-            <rect x="38" y="41" width="10" height="9" fill="green" stroke="black" stroke-width="0.1" />
-  <text x="43" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Fd</text>
-  <text x="43" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6:H</text>
+            <rect x="38" y="41" width="10" height="9" fill="lightgray" stroke="black" stroke-width="0.1" />
+  <text x="43" y="45" font-size="4" font-family="Rockwell"  text-anchor="middle">Df</text>
+  <text x="43" y="48.3" font-size="3" font-family="Rockwell"  text-anchor="middle">15</text>
+          
+        
           
         
       
@@ -567,9 +598,7 @@
       <text x="16" y="62" fill="black" stroke="white" stroke-width="0.4" style="paint-order:stroke" text-anchor="middle" font-size="4" font-family="Rockwell" >Scrap For:</text>
         
           
-            <rect x="38" y="56" width="10" height="9" fill="red" stroke="black" stroke-width="0.1" />
-  <text x="43" y="60" font-size="4" font-family="Rockwell"  text-anchor="middle">At</text>
-  <text x="43" y="63.3" font-size="3" font-family="Rockwell"  text-anchor="middle">2d6+2</text>
+        
           
         
       

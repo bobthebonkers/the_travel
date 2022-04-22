@@ -8,19 +8,21 @@
     {{- case "Construction"}}orange
     {{- case "Defence"}}lightgray
     {{- case "Wood"}}maroon
+    {{- case "Card"}}blue
     {{- case <v>}}gray
   {{- /switch -}}
 {{- /global -}}
 
 
 {{-global r_name -}}
-  {{-switch $0-}}
+  {{-switch $0 -}}
     {{-case "Movement"}}Mv
     {{-case "Food"}}Fd
     {{-case "Attack"}}At
     {{-case "Wood"}}Wd
     {{-case "Iron"}}Ir
     {{-case "Defence"}}Df
+    {{-case "Card"}}Cr
     {{- case <v>}}{{$v}}
   {{- /switch -}}
 {{-/global-}}

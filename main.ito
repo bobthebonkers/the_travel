@@ -72,5 +72,5 @@
 {{/global}}
 
 {{global back}}
-    <rect {{xywh 0 0 45 60}} {{fl_stk "blue" "black" 2}} />
+    <rect {{xywh 0 0 50 70}} {{fl_stk "cyan" "black" 2}} opacity="0.6"/>
 {{/global}}

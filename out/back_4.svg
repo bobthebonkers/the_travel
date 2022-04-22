@@ -6,9 +6,49 @@
 >
 
 
-<g transform="translate(131 7)">
+<g transform="translate(133 40.5)">
 
-    <rect x="0" y="0" width="45" height="60" fill="blue" stroke="black" stroke-width="2" />
+    <rect x="0" y="0" width="50" height="70" fill="cyan" stroke="black" stroke-width="2" opacity="0.6"/>
+
+</g>
+<g transform="translate(80 40.5)">
+
+    <rect x="0" y="0" width="50" height="70" fill="cyan" stroke="black" stroke-width="2" opacity="0.6"/>
+
+</g>
+<g transform="translate(27 40.5)">
+
+    <rect x="0" y="0" width="50" height="70" fill="cyan" stroke="black" stroke-width="2" opacity="0.6"/>
+
+</g>
+<g transform="translate(133 113.5)">
+
+    <rect x="0" y="0" width="50" height="70" fill="cyan" stroke="black" stroke-width="2" opacity="0.6"/>
+
+</g>
+<g transform="translate(80 113.5)">
+
+    <rect x="0" y="0" width="50" height="70" fill="cyan" stroke="black" stroke-width="2" opacity="0.6"/>
+
+</g>
+<g transform="translate(27 113.5)">
+
+    <rect x="0" y="0" width="50" height="70" fill="cyan" stroke="black" stroke-width="2" opacity="0.6"/>
+
+</g>
+<g transform="translate(133 186.5)">
+
+    <rect x="0" y="0" width="50" height="70" fill="cyan" stroke="black" stroke-width="2" opacity="0.6"/>
+
+</g>
+<g transform="translate(80 186.5)">
+
+    <rect x="0" y="0" width="50" height="70" fill="cyan" stroke="black" stroke-width="2" opacity="0.6"/>
+
+</g>
+<g transform="translate(27 186.5)">
+
+    <rect x="0" y="0" width="50" height="70" fill="cyan" stroke="black" stroke-width="2" opacity="0.6"/>
 
 </g>
 </svg>
