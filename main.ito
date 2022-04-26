@@ -26,47 +26,25 @@
       {{/if}}
 
       <text {{xy 20 10 }} {{fl_stk "black" "yellow" 0.5}} style="paint-order:stroke" text-anchor="middle" {{font 6 "Rockwell"}}>{{.Name}}</text>
-      {{#COSTS#}}
-      {{for k c in .cost}}
-      {{switch $c}}
-        {{case [<res> <count>]}}
-        {{resource $res $count 45 (add 8 (mul $k 10))}}
-      {{/switch}}
-      {{/for}}
+      {{#COSTS#}} 
+      {{for k c in .cost}} {{resource $c 45 (add 8 (mul $k 10))}} {{/for}}
 
-      {{if .provides}}
-        {{for k p in .provides}}
-          {{switch $p}}
-            {{case [<res> <count>]}}
-            {{resource $res $count (sub 45 (mul $k 11)) 45 }}
-          {{/switch}}
-        {{/for}}
-      {{/if}}
+      {{if .jobs}}{{for jk jb in .jobs}}
+            {{let y = sub 60 (mul 10 $jk)}}
+            {{export arrowx = 0}}
+            {{for k p in $jb.req}}
+                {{resource $p (add 10 (mul $k 11)) $y }}
+                {{export arrowx = $k}}
+            {{/for}}
+            <text {{xy (add 16 (mul $arrowx 10)) (add 1 $y) }} {{fl_stk "black" "white" 0.4}} style="paint-order:stroke" text-anchor="middle" {{font 4 "Rockwell"}}>=&gt;</text>
 
 
-      {{if .requires}}
-        {{export arrowx = 0}}
-        {{for k p in .requires}}
-          {{switch $p}}
-            {{case [<res> <count>]}}
-            {{resource $res $count (add 10 (mul $k 11)) 45 }}
-          {{/switch}}
-          {{export arrowx = $k}}
-        {{/for}}
-        <text {{xy (add 16 (mul $arrowx 10)) 46 }} {{fl_stk "black" "white" 0.4}} style="paint-order:stroke" text-anchor="middle" {{font 4 "Rockwell"}}>=&gt;</text>
-
-      {{/if}}
+            {{for k p in $jb.for}}
+                {{resource $p (sub 45 (mul $k 11)) $y }}
+            {{/for}}
+      {{/for}}{{/if}}
 
 
-      {{if .scrapfor}}
-      <text {{xy 16 62 }} {{fl_stk "black" "white" 0.4}} style="paint-order:stroke" text-anchor="middle" {{font 4 "Rockwell"}}>Scrap For:</text>
-        {{for k s in .scrapfor}}
-          {{switch $s}}
-            {{case [<res> <count>]}}
-            {{resource $res $count (sub 45 (mul $k 11)) 60 }}
-          {{/switch}}
-        {{/for}}
-      {{/if}}
 
 
 {{/global}}
