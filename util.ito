@@ -63,6 +63,6 @@
             {{if $num}}
               <text {{xy (sub $x 2)(add $y 3.3)}} {{font 3 "Rockwell"}} text-anchor="middle">{{$num}}</text>
             {{/if}}
-    {{/switch}}Defence,Attack,Move
+    {{/switch}}
 
 {{- /global -}}
