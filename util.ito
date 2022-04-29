@@ -27,10 +27,11 @@
     {{- case "Card"}}blue
     {{- case "Scrap"}}pink
     {{- case "Forest"}}green
-    {{- case "Mountain"}}green
+    {{- case "Mountain"}}gray
     {{- case "Prarie"}}lime
     {{- case "Water"}}blue
     {{- case "Village"}}yellow
+    {{- case "Gold"}}gold
     {{- case _}}gray
   {{- /switch -}}
 {{- /global -}}
